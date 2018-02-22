@@ -17,7 +17,7 @@ class nginx (
     mode  => '0644',
   }
   
-  notify { "MESSGE IS ------------- ${message}": }
+  notify { "MESSAGE IS ------------- ${message}": }
 
   package { $package:
     ensure => present,
